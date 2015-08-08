@@ -1,0 +1,67 @@
+/* Comment */
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li{
+	display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://www.potsdam.edu/alumni/pride/images/fall4x3_1.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.grid-of-thumbnails {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.grid-of-thumbnails h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.grid-of-thumbnails p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
