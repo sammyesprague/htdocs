@@ -3,16 +3,24 @@
 
 <head>
   <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
 <body>
-  <p>
-    Please Login Below
-  </p>
-  <form action="https://www.stowelllims.comprocess.php" method="POST"> <!-- URL of the process.php page-->
-    Username: <input type="text" name="username"/>
-    Password: <input type="password" name="password"/>
-    <input type="submit" name="login" value="Login"/>
+  <!--
+  <div class="loginpic">
+    <img/>
+  </div>
+  -->
+  <form action="process.php" method="POST">
+    <fieldset>
+      <legend> Enter your login information below </legend>
+      <label for="Username"> Username: </label> <br>
+      <input type="text" name="username" id="Username"/> <br>
+      <label for="Password"> Password: </label> <br>
+      <input type="password" name="password" id="Password"/> <br><br>
+      <input type="submit" name="login" value="Login"/>
+    </fieldset>
   </form>
 
 <!--

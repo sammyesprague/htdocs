@@ -3,9 +3,9 @@
 
 	<head>
 		<title>Home</title>
-		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css">
+	  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+	  <link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 
 	<body>
@@ -13,7 +13,7 @@
 		<div class="nav">
         	<div class="container">
         		<ul class="pull-left">
-          			<li><a href="#">Login</a></li>
+          			<li><a href="/login.php">Login</a></li>
           			<li><a href="#">Logout</a></li>
         		</ul>
         		<ul class="pull-right">
